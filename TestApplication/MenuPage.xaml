@@ -1,0 +1,21 @@
+﻿<Page x:Class="TestApplication.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+	Title="MenuPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnStart" Content="Start Program" Margin="195,148,0,0" VerticalAlignment="Top" Height="31" HorizontalAlignment="Left" Width="135" FontSize="18" Click="btnStart_Click"/>
+        <Label x:Name="lblTitle" Content="Household Utensils" Margin="10,26,10,0" VerticalAlignment="Top" Height="93" FontSize="40" HorizontalAlignment="Center"/>
+        <Button x:Name="btnSetup" Content="Setup" Margin="195,184,-30,0" VerticalAlignment="Top" Height="31" HorizontalAlignment="Left" Width="135" FontSize="18" Click="btnSetup_Click"/>
+        <Button x:Name="btnUpdate" Content="Categories" Margin="195,220,0,0" VerticalAlignment="Top" Height="31" HorizontalAlignment="Left" Width="135" FontSize="18" Click="btnUpdate_Click"/>
+
+    </Grid>
+</Page>

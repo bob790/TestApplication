@@ -1,0 +1,6 @@
+﻿<NavigationWindow x:Class="TestApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Household Utensils" Height="550" Width="525" Source="MenuPage.xaml">
+   
+</NavigationWindow>
